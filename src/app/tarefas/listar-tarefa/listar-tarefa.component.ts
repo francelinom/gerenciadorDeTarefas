@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listar-tarefa.component.css'],
 })
 export class ListarTarefaComponent implements OnInit {
-  tarefas!: Tarefa[];
+  tarefas!: any[];
   constructor(private tarefaService: TarefasService) {}
 
   ngOnInit(): void {
